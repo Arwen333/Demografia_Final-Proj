@@ -38,20 +38,14 @@ Selecciona el archivo .Rproj
 source("scripts/instalacion_paquetes.R")
 
 5. Ejecutar análisis en orden:
-# Preprocesamiento y limpieza de datos
-00_pre_process.R - Preprocesamiento de datos
 
-# Cálculo de años persona vividos
-https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/01_apv.R
-
-# Análisis de defunciones y mortalidad
-https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/02_def.R
-
-# Construcción de tablas de vida
-https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/03_lt.R
-
-# Descomposición Arriaga
-https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/04_desc.R
+| Script | Función | Enlace |
+|--------|---------|--------|
+| `00_pre_process.R` | Preprocesamiento | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/00_pre_process.R) |
+| `01_apv.R` | Años persona vividos | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/01_apv.R) |
+| `02_def.R` | Análisis de defunciones | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/02_def.R) |
+| `03_lt.R` | Tablas de vida | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/03_lt.R) |
+| `04_desc.R` | Descomposición Arriaga | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/04_desc.R) |
 
 # Decremento Multiple
 source("scripts/05_dm.R")
