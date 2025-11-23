@@ -39,7 +39,7 @@ source("scripts/instalacion_paquetes.R")
 
 5. Ejecutar análisis en orden:
 # Preprocesamiento y limpieza de datos
-01_apv.R
+00_pre_process.R - Preprocesamiento de datos
 
 # Cálculo de años persona vividos
 https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/01_apv.R
