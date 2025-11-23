@@ -26,4 +26,15 @@ El proyecto se enmarca dentro del campo de la demografía formal y la estadísti
 1. Clonar el repositorio:
 ```bash
 git clone https://github.com/tuusuario/Demografia_Proyecto_Final.git
-    
+
+2. Abrir el proyecto en RStudio
+3. Instalar dependencias:
+
+source("scripts/instalacion_paquetes.R")
+4.Ejecutar análisis en orden:
+
+r
+source("scripts/01_limpieza_datos.R")
+source("scripts/02_analisis_mortalidad.R")
+source("scripts/03_tablas_mortalidad.R")
+source("scripts/04_visualizaciones.R")
