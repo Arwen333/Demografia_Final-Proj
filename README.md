@@ -37,19 +37,19 @@ Selecciona el archivo .Rproj
 source("scripts/instalacion_paquetes.R")
 4. Ejecutar análisis en orden:
 # Preprocesamiento y limpieza de datos
-source("scripts/00_pre_process.R")
+https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/00_pre_process.R
 
 # Cálculo de años persona vividos
-source("scripts/01_apv.R")
+https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/01_apv.R
 
 # Análisis de defunciones y mortalidad
-source("scripts/02_def.R")
+https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/02_def.R
 
 # Construcción de tablas de vida
-source("scripts/03_lt.R")
+https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/03_lt.R
 
 # Descomposición Arriaga
-source("scripts/04_desc.R")
+https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/04_desc.R
 
 # Decremento Multiple
 source("scripts/05_dm.R")
