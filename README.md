@@ -33,11 +33,13 @@ Ve a File > Open Project
 Navega hasta la carpeta Demografia_Proyecto_Final
 
 Selecciona el archivo .Rproj
+
 3. Instalar dependencias:
 source("scripts/instalacion_paquetes.R")
-4. Ejecutar análisis en orden:
+
+5. Ejecutar análisis en orden:
 # Preprocesamiento y limpieza de datos
-https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/00_pre_process.R
+01_apv.R
 
 # Cálculo de años persona vividos
 https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/01_apv.R
@@ -57,3 +59,5 @@ source("scripts/05_dm.R")
 # Generar reporte PDF final
 rmarkdown::render("scripts/reporte_final.Rmd", 
                   output_file = "../results/informe/reporte_final.pdf")
+##📄 Licencia
+Este proyecto es para fines académicos del curso Demografía 9213.
