@@ -24,17 +24,36 @@ El proyecto se enmarca dentro del campo de la demografía formal y la estadísti
 
 ### Ejecución
 1. Clonar el repositorio:
-```bash
-git clone https://github.com/tuusuario/Demografia_Proyecto_Final.git ´´´´
-
+git clone https://github.com/tuusuario/Demografia_Proyecto_Final.git
 2. Abrir el proyecto en RStudio
+Abre RStudio
+
+Ve a File > Open Project
+
+Navega hasta la carpeta Demografia_Proyecto_Final
+
+Selecciona el archivo .Rproj
 3. Instalar dependencias:
-
 source("scripts/instalacion_paquetes.R")
-4.Ejecutar análisis en orden:
+4. Ejecutar análisis en orden:
+# Preprocesamiento y limpieza de datos
+source("scripts/00_pre_process.R")
 
-r
-source("scripts/01_limpieza_datos.R")
-source("scripts/02_analisis_mortalidad.R")
-source("scripts/03_tablas_mortalidad.R")
-source("scripts/04_visualizaciones.R")
+# Cálculo de años persona vividos
+source("scripts/01_apv.R")
+
+# Análisis de defunciones y mortalidad
+source("scripts/02_def.R")
+
+# Construcción de tablas de vida
+source("scripts/03_lt.R")
+
+# Descomposición Arriaga
+source("scripts/04_desc.R")
+
+# Decremento Multiple
+source("scripts/05_dm.R")
+
+# Generar reporte PDF final
+rmarkdown::render("scripts/reporte_final.Rmd", 
+                  output_file = "../results/informe/reporte_final.pdf")
