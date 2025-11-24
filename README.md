@@ -38,6 +38,7 @@ Selecciona el archivo .Rproj
 source("scripts/instalacion_paquetes.R")
 
 5. Ejecutar análisis en orden:
+## 📂 Scripts de Análisis
 
 | Script | Función | Enlace |
 |--------|---------|--------|
@@ -46,12 +47,10 @@ source("scripts/instalacion_paquetes.R")
 | `02_def.R` | Análisis de defunciones | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/02_def.R) |
 | `03_lt.R` | Tablas de vida | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/03_lt.R) |
 | `04_desc.R` | Descomposición Arriaga | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/04_desc.R) |
-
-# Decremento Multiple
-source("scripts/05_dm.R")
+| `05_dm.R` | Decremento múltiple | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/05_dm.R) |
 
 # Generar reporte PDF final
 rmarkdown::render("scripts/reporte_final.Rmd", 
                   output_file = "../results/informe/reporte_final.pdf")
-##📄 Licencia
+#📄 Licencia
 Este proyecto es para fines académicos del curso Demografía 9213.
