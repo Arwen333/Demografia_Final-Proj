@@ -49,8 +49,3 @@ source("scripts/instalacion_paquetes.R")
 | `04_desc.R` | Descomposición Arriaga | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/04_desc.R) |
 | `05_dm.R` | Decremento múltiple | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/05_dm.R) |
 
-# Generar reporte PDF final
-rmarkdown::render("scripts/reporte_final.Rmd", 
-                  output_file = "../results/informe/reporte_final.pdf")
-#📄 Licencia
-Este proyecto es para fines académicos del curso Demografía 9213.
