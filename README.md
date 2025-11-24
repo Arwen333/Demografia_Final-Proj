@@ -48,4 +48,13 @@ source("scripts/instalacion_paquetes.R")
 | `03_lt.R` | Tablas de vida | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/03_lt.R) |
 | `04_desc.R` | Descomposición Arriaga | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/04_desc.R) |
 | `05_dm.R` | Decremento múltiple | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/05_dm.R) |
+📄 Informe Final del Proyecto
 
+## 📄 Informe Final PDF
+
+El informe completo del análisis demográfico de Guanajuato está disponible en el siguiente documento:
+
+[📊 Ver Informe Final - Guanajuato](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/Informe_Guanajuato_OrtizEvangelista.pdf)
+
+## 📜 Licencia
+Este proyecto es para fines académicos del curso Demografía 9213.
