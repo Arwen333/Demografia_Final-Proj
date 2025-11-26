@@ -11,10 +11,15 @@ El proyecto se enmarca dentro del campo de la demografía formal y la estadísti
 ## 🛠️ Tecnologías Utilizadas
 - **R** (lenguaje de programación)
 - **RStudio** (entorno de desarrollo)
-- Paquetes de R: 
-  - `data.table` (análisis de datos)
-  - `ggplot2` (visualizaciones)
-  - `readxl` (manejo de datos)
+| Paquete | Propósito |
+|---------|-----------|
+| `readxl` | Importación de archivos Excel (.xlsx, .xls) |
+| `reshape2` | Transformación y remodelado de datos |
+| `lubridate` | Manejo de fechas y tiempos |
+| `ggplot2` | Visualizaciones y gráficos estadísticos |
+| `data.table` | Manipulación eficiente de grandes conjuntos de datos |
+| `dplyr` | Manipulación y transformación de datos |
+
  
 ## 🚀 Instalación y Uso
 
