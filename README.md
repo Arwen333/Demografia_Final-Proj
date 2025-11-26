@@ -11,7 +11,7 @@ El proyecto se enmarca dentro del campo de la demografía formal y la estadísti
 ## 🛠️ Tecnologías Utilizadas
 - **R** (lenguaje de programación)
 - **RStudio** (entorno de desarrollo)
-## Paquetes de R
+- **Paquetes de R**
 
 - **`readxl`** - Importación de archivos Excel (.xlsx, .xls)
 - **`reshape2`** - Transformación y remodelado de datos
@@ -30,7 +30,8 @@ El proyecto se enmarca dentro del campo de la demografía formal y la estadísti
 ### Ejecución
 1. Clonar el repositorio:
 git clone https://github.com/Arwen333/Demografia_Final-Proj/tree/main
-2. Abrir el proyecto en RStudio
+2. Descargar 
+3. Abrir el proyecto en RStudio
 Abre RStudio
 
 Ve a File > Open Project
