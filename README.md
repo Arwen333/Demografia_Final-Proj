@@ -30,8 +30,12 @@ El proyecto se enmarca dentro del campo de la demografía formal y la estadísti
 ### Ejecución
 1. Clonar el repositorio:
 git clone https://github.com/Arwen333/Demografia_Final-Proj/tree/main
-2. Descargar 
-3. Abrir el proyecto en RStudio
+    Los datos de censos de Guanajuato del INEGI ya están incluidos en el repositorio:
+
+- **Ubicación:** `Demog_Final_Proj/censos/`
+- **Contenido:** Datos censales procesados para el análisis demográfico
+- **Enlace:** [📁 Ver datos de censos](https://github.com/Arwen333/Demografia_Final-Proj/tree/main/Demog_Final_Proj/censos)
+2. Abrir el proyecto en RStudio
 Abre RStudio
 
 Ve a File > Open Project
@@ -43,7 +47,7 @@ Selecciona el archivo .Rproj
 3. Instalar dependencias:
 source("scripts/instalacion_paquetes.R")
 
-5. Ejecutar análisis en orden:
+4. Ejecutar análisis en orden:
 ## 📂 Scripts de Análisis
 
 | Script | Función | Enlace |
