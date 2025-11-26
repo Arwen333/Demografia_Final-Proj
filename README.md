@@ -30,8 +30,8 @@ El proyecto se enmarca dentro del campo de la demografía formal y la estadísti
 ### Ejecución
 1. Clonar el repositorio:
 git clone https://github.com/Arwen333/Demografia_Final-Proj/tree/main
-    Los datos de censos de Guanajuato del INEGI ya están incluidos en el repositorio:
 
+Los datos de censos de Guanajuato del INEGI ya están incluidos en el repositorio:
 - **Ubicación:** `Demog_Final_Proj/censos/`
 - **Contenido:** Datos censales procesados para el análisis demográfico
 - **Enlace:** [📁 Ver datos de censos](https://github.com/Arwen333/Demografia_Final-Proj/tree/main/Demog_Final_Proj/censos)
