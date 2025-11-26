@@ -11,6 +11,7 @@ El proyecto se enmarca dentro del campo de la demografía formal y la estadísti
 ## 🛠️ Tecnologías Utilizadas
 - **R** (lenguaje de programación)
 - **RStudio** (entorno de desarrollo)
+- **Paquetes de R
 | Paquete | Propósito |
 |---------|-----------|
 | `readxl` | Importación de archivos Excel (.xlsx, .xls) |
