@@ -50,14 +50,14 @@ source("scripts/instalacion_paquetes.R")
 4. Ejecutar análisis en orden:
 ## 📂 Scripts de Análisis
 
-| Script | Función | Output | Enlace |
-|--------|---------|---------|--------|
-| `00_pre_process.R` | Preprocesamiento | - | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/00_pre_process.R) |
-| `01_apv.R` | Años persona vividos | - | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/01_apv.R) |
-| `02_def.R` | Análisis de defunciones | - | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/02_def.R) |
-| `03_lt.R` | Tablas de vida | - | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/03_lt.R) |
-| `04_desc.R` | Descomposición Arriaga | - | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/04_desc.R) |
-| `05_dm.R` | Decremento múltiple | [LT_CausaElliminada.xlsx](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/LT_CausaElliminada.xlsx) | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/05_dm.R) |
+| Script | Función | Enlace |
+|--------|---------|--------|
+| `00_pre_process.R` | Preprocesamiento | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/00_pre_process.R) |
+| `01_apv.R` | Años persona vividos | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/01_apv.R) |
+| `02_def.R` | Análisis de defunciones | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/02_def.R) |
+| `03_lt.R` | Tablas de vida | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/03_lt.R) |
+| `04_desc.R` | Descomposición Arriaga | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/04_desc.R) |
+| `05_dm.R` | Decremento múltiple ([LT_CausaElliminada.xlsx](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/LT_CausaElliminada.xlsx)) | [Ver código](https://github.com/Arwen333/Demografia_Final-Proj/blob/main/Demog_Final_Proj/scrip/05_dm.R) |
 
 ## 📄 Informe Final PDF
 
